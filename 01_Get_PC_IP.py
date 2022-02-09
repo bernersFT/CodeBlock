@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Date    : 2020-02-28 09:32:02
-# @Author  : Nero (Nero@iv66.net)
+# @Author  : Berners.lk@gmail.com
 # @Link    : N/A
 # @Version : $Id$
 
@@ -16,10 +16,7 @@ import socket
 #     finally:
 #         s.close()
 #     return ip
-
-
 # a = get_host_ip()
-
 # print(a)
 
 
