@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Date    : 2020-10-04 15:07:26
-# @Author  : Nero (Nero@iv66.net)
+# @Author  : Berners.lk@gmail.com
 # @Link    : N/A
 # @Version : NAC v1.0
 
@@ -88,7 +88,7 @@ for k,v in user_configuration.items():
         try:
             trans = paramiko.Transport((k,22))
             trans.start_client()
-            trans.auth_password(username="nero",password="Intech.2018")
+            trans.auth_password(username="username",password="password")
             channel = trans.open_session()
             channel.settimeout(7200)
             channel.get_pty()
