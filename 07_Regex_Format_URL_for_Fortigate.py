@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Date    : 2020-05-06 20:06:35
-# @Author  : Nero (Nero@iv66.net)
+# @Author  : Berners.lk@gmail.com
 # @Link    : N/A
 # @Version : $Id$
 
