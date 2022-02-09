@@ -1,15 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Date    : 2020-05-12 08:44:38
-# @Author  : Nero
+# @Author  : Berners.lk@gmail.com
 # @Link    : N/A
 # @Version : 3.0
 
 '''
 更新功能：
 更新记录：
----2020-10-03:
-    1. 上传到gitlab
+
 ---2020-09-28 V3.1:
     1. 记录日志到文本文件
 ---2020-05-16 v3.0：
