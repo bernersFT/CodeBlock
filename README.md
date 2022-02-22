@@ -12,6 +12,18 @@
 12. str.replace(old, new[, max])此语法中，str代表指定检索的字符串；old代表将被替换的子字符串；new代表新字符串，用于替换old子字符串；max代表可选字符串，如果指定了max参数，则替换次数不超过max次。
 13. translate()方法的使用属于比较高级的应用，学有余力的读者可以多做一些深入了解。
 14. del student['小张']  #删除 键值为“小张”的键
+15. 字典中的元素是无序的，即不能通过索引下标的方式从字典中取元素;查找和插入的速度极快，不会随着字典中键的增加而变慢;字典需要占用大量内存，内存浪费多
+16. get()方法返回字典中指定键的值 dict.get(key, default=None);dict代表指定字典，key代表字典中要查找的键，default代表指定的键不存在时返回的默认值
+17. keys()方法用于返回一个字典的所有键 dict.keys()
+18. values()方法用于返回字典中的所有值 dict.values()
+19. 字典中的in操作符用于判断键是否存在于字典中 key in dict
+20. dict.update(dict2) dict代表指定字典，dict2代表添加到指定字典dict里的字典
+21. clear()方法用于删除字典内的所有元素 dict.clear()
+22. dict.copy()
+23. fromkeys()方法用于创建一个新字典，dict.fromkeys(seq[, value]))
+24. items()方法以列表返回可遍历的（键/值）元组数组 dict.items()
+25. setdefault()方法和get()方法类似，用于获得与给定键相关联的值 dict.setdefault(key, default=None)当键不存在时，setdefault()方法返回默认值并更新字典；当键存在时，就返回与其对应的值，不改变字典
+26. 在集合中，使用add()方法为集合添加元素;在集合中，使用remove()方法可以删除的元素
 
 
 
