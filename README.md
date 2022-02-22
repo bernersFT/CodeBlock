@@ -8,5 +8,10 @@
 8. reverse()方法用于反向列表中的元素。该方法改变了列表但不返回值（和前面的remove()方法一样）
 9. clear()方法用于清空列表，类似于 del a[:]。field.clear()
 10. count()方法用于统计某个元素在列表中出现的次数
-11. 
+11. str.find(str, beg=0, end=len(string))
+12. str.replace(old, new[, max])此语法中，str代表指定检索的字符串；old代表将被替换的子字符串；new代表新字符串，用于替换old子字符串；max代表可选字符串，如果指定了max参数，则替换次数不超过max次。
+13. translate()方法的使用属于比较高级的应用，学有余力的读者可以多做一些深入了解。
+14. del student['小张']  #删除 键值为“小张”的键
+
+
 
