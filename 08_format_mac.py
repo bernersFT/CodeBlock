@@ -32,7 +32,7 @@ def format_mac(mac):
                     + mac_fm[10:]
             )
 
-
+# support format for MAC as below, and return like 12:12:12:12:12:12
 print(format_mac('1212:1212:1212'))
 print(format_mac('1212-1212-1212'))
 print(format_mac('1212.1212.1212'))
