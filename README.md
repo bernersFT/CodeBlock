@@ -24,6 +24,9 @@
 24. items()方法以列表返回可遍历的（键/值）元组数组 dict.items()
 25. setdefault()方法和get()方法类似，用于获得与给定键相关联的值 dict.setdefault(key, default=None)当键不存在时，setdefault()方法返回默认值并更新字典；当键存在时，就返回与其对应的值，不改变字典
 26. 在集合中，使用add()方法为集合添加元素;在集合中，使用remove()方法可以删除的元素
+27. assert x%2 == 0, "x is not an even number" 当assert后面的条件为真时，程序正常运行；当assert后面的条件为假时，输出错误信息;assert语句失败时，会引发一个AssertionError
+28. 在while条件语句为false时，执行else的语句块
+29. 在for条件语句为false或结束后没有被break中断时，执行else的语句块
 
 
 
