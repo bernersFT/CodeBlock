@@ -27,6 +27,8 @@
 27. assert x%2 == 0, "x is not an even number" 当assert后面的条件为真时，程序正常运行；当assert后面的条件为假时，输出错误信息;assert语句失败时，会引发一个AssertionError
 28. 在while条件语句为false时，执行else的语句块
 29. 在for条件语句为false或结束后没有被break中断时，执行else的语句块
+30. 函数：关键字参数可以不按位置，如person_info(age=21,name='小萌')；默认参数：def default_param(name, age=23) 默认参数一定要放在非默认参数后面
+31. 可变参数函数，*号后面的都将被放入一个列表。注意：*标记的参数可有可无。def person_info_var(arg,*vartuple):
 
 
 
