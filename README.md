@@ -30,6 +30,8 @@
 30. 函数：关键字参数可以不按位置，如person_info(age=21,name='小萌')；默认参数：def default_param(name, age=23) 默认参数一定要放在非默认参数后面
 31. 可变参数函数，*号后面的都将被放入一个列表。注意：*标记的参数可有可无。def person_info_var(arg,*vartuple):
 32. 此处** other表示把other这个字典的所有key-value用关键字参数传入函数的 ** kw参数中，kw将获得一个字典，注意kw获得的字典是other复制的，对kw的改动不会影响函数外的other。
+33. 在Python 3.8的新语法中，符号/分隔了位置参数和关键字参数
+34. global num 将函数局部变量转换为全局变量
 
 
 
